@@ -66,6 +66,36 @@ Las siglas SBC quieren decir, Single Board Computer o Pc de placa única. Esto q
 * **Pandaboard**. Es posible la menos famosa pero no por ello la menos interesante. Pandaboard tiene una gran comunidad que está creando interesantes proyectos con esta placa SBC. Pandaboard permite la conexión wireless gracias a una antena wireless incorporada a la placa. Característica que otras placas no tienen.
 
 
+##MODELO DE ARQUITECTURA DE VON NEUMANN
+
+La arquitectura de John Von Neumann se caracteriza principalmente por los procesadores que tiene el mismo dispositivo de almacenamiento tanto para las instrucciones como para los datos. Estos, al ser almacenados en el mismo formato dentro de la memoria, utiliza un único bus de datos para poder mantener contacto con la CPU. Esto crea una eficiencia en la utilización de la memoria, pero al mismo tiempo requiere una ambigüedad para poder reconocer y distinguir los datos.
+
+Un ordenador que posea esta arquitectura emula los siguientes procedimientos:
+
+* Al encender el ordenador y obtener la siguiente instrucción desde la memoria en la dirección indicada por el contador de programa y la guarda en el registro de instrucciones.
+- Aumenta el contador de programa y lo guarda en el registro de instrucción.
+* Decodifica la instrucción a través de la unidad de control. Ésta es la encargada de coordinar el resto de los componentes de la computadora para realiza cada función determinada.
+* Se ejecuta la instrucción. Ésta puede cambiar el valor del contador de programa, permitiendo hacer operaciones repetitivas. El contador puede cambiar también cuando se cumpla una cierta condición aritmética, haciendo que el ordenador pueda “pensar”, haciendo que pueda alcanzar cualquier grado de complejidad a través de la aritmética y de la lógica anteriores.
+Hoy en día, la mayoría de las computadoras son construidas con esta arquitectura ya que las capacidades dnámicas del diseño, como la implementacion y la operación de un programa en vez de dos, aunque puede ser más lenta para determinadas tareas, es mas flexible y permite mas conceptos como la programación libre.
+
+
+
+![imagen](http://www.electrontools.com/Home/WP/wp-content/uploads/2018/04/VonNeumann.jpg)
+
+
+## MODELO DE ARQUITECTURA DE HARVARD
+A diferencia del modelo de Von Neumann, el modelo de arquitectura de Harvard, que proviene del Harvard Mark I, se diferencia principalmente por la división de las instrucciones de los datos que se comunican con la unidad central de proceso en dos memorias separadas. Esto genera también que se utilicen distintos buses de información. Aunque es común un único bus de direcciones, con un control que pueda diferenciar entre ambas memorias. Al contrario del modelo de arquitectura de John Von Neumann, el modelo de Harvard no requiere de la ambigüedad para poder reconocer los datos, pero no es tan eficiente en la utilización de la memoria. Estos ordenadores siempre se componen por los mismos elementos que los utilizados por el modelo de Von Neumann, excepto por que tiene dos memorias, una utilizada para las instrucciones y otra para los datos, y no una única memoria como el otro modelo.
+
+En este modelo, las instrucciones y los datos se almacenan en cachés diferentes para mejorar el rendimiento. Pero por su contraparte, tiene el inconveniente de tener que dividir la cantidad de memoria caché entre los dos, por lo que funciona mejor sólo en los casos particulares cuando la frecuencia de lectura de instrucciones y de datos es aproximadamente la misma.
+
+Resumidamente, la arquitectura de Harvard se basa en:
+
+* Las instrucciones y los datos se almacenan en caches separadas para mejorar el rendimiento.
+* Tienen el inconveniente de tener que dividir las memorias caches entre los dos, por lo que no funciona de la mejor manera, salvo cuando la frecuencia de lectura de instrucciones y de datos es aproximadamente la misma.
+* Esta arquitectura suele utilizarse en DSPs, o procesador de seal digital, usados prácticamente siempre en los productos para el procesamiento de audio y vídeo 
+
+
+![imagen](http://www.electrontools.com/Home/WP/wp-content/uploads/2018/04/Harvard.png)
 
 
 
