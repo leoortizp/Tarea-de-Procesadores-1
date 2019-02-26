@@ -1,18 +1,18 @@
-#Tarea de procesadores
-###MICROPROCESADORES
+# Tarea de procesadores
+### MICROPROCESADORES
 Un microcontrolador es un es un circuito integrado programable, capaz de ejecutar las órdenes grabadas en su memoria. Está compuesto de varios bloques funcionales, los cuales cumplen una tarea específica. Son diseñados para disminuir el coste económico y el consumo de energía de un sistema en particular. 
 
 Por ejemplo, un microcontrolador típico tendrá un generador de reloj integrado y una pequeña cantidad de memoria **RAM y ROM/EPROM/EEPROM/FLASH**, significando que para hacerlo funcionar, todo lo que se necesita son unos pocos programas de control y un cristal de sincronización
 
 ![imagen](http://partesde.com/wp-content/uploads/2017/01/microprocesador-710x471.jpg)
 
-###MICROCONTROLADORES
+### MICROCONTROLADORES
 El microprocesador es un chip, un componente electrónico cuyo interior esta formado por miles y miles de transistores, cuya combinación permite realizar el trabajo que tenga encomendado el circuito o chip.Los micros, suelen tener forma de cuadrado o rectángulo negro, y van bien sobre unelemento llamado zócalo (socket en ingles), soldados en la placa, o metidos dentro de unaespecia de cartucho que se conecta a la placa base (aunque el chip en si esta soldado en elinterior de dicho cartucho)
 
 ![imagen](https://www.dynamoelectronics.com/1724-large_default/microcontrolador-pic18f452.jpg)
 
 
-#####CARACTERISTICAS Y DIFERENCIAS ENTRE MICROCONTROLADOR Y MICROPROCESADOR 
+##### CARACTERISTICAS Y DIFERENCIAS ENTRE MICROCONTROLADOR Y MICROPROCESADOR 
 
 | Caracteristicas     | Microcontrolador        | Microprocesador |
 | ------------- |:-------------:| -----:|
@@ -24,14 +24,14 @@ El microprocesador es un chip, un componente electrónico cuyo interior esta for
 | Interferencias   | Son más susceptibles a la interferencia electromagnética debido a su tamaño y a su cableado externo que lo hace más propenso al ruido.      |   El alto nivel de integración reduce los niveles de interferencia electromagnética |
 
 
-###System on a Chip o Soc
+### System on a Chip o Soc
 
 Un System on a Chip (SoC) es un circuito electrónico que integra todos los componentes necesarios en un ordenador y otros sistemas electrónicos. Estos comprenden una GPU (procesador de gráficos), CPU (una unidad de procesamiento central),  controlador de memoria, circuitos de administración de energía, un controlador USB, conectividad inalámbrica (WiFi, GPS, Bluetooth, radio FM, 2G / 3G / 4G LTE) y más. Estos componentes están soldados de forma permanente en la placa base y, como tales, difieren de los ordenadores comunes cuyas piezas pueden reemplazarse en cualquier momento dado
 
 ![imagen](https://hardzone.es/app/uploads/2018/03/soc-system-on-a-chip.jpg)
 
 
-####Ventajas de un SoC
+#### Ventajas de un SoC
 
 El uso de un SoC supone una mayor integración de los componentes en una única pieza de silicio, esto tiene varios beneficios como una reducción en el coste de fabricación final del dispositivo que lo implementa, así como un menor consumo de energía. Esto último es muy importante en los smartphones, ya que la capacidad de su batería es bastante limitada. Otra ventaja de los SoC es que todos los componentes que integra están muy cerca unos de otros, lo que supone una mayor velocidad a la hora de comunicarse entre ellos, ofreciendo un mejor rendimiento.
 
@@ -43,7 +43,7 @@ Toda nueva tecnología es desarrollada con el objetivo de facilitar la vida al u
 * El aumento del calor al tener tantos componentes en un solo circuito puede llegar a afectar su optimo desempeño.
 
 
-###Single Board Computer o SBC
+### Single Board Computer o SBC
 
 Las siglas SBC quieren decir, Single Board Computer o Pc de placa única. Esto quiere decir que a diferencia de los ordenadores tradicionales, los pc’s SBC son placas que contienen todos o la mayor parte de los componentes de un ordenador.
 
@@ -59,14 +59,14 @@ Las siglas SBC quieren decir, Single Board Computer o Pc de placa única. Esto q
 
 ![imagen](https://images-na.ssl-images-amazon.com/images/I/61fg%2BWT1kKL._SX355_.jpg)
 
-####Ejemplos de placas SBC
+#### Ejemplos de placas SBC
 * **Raspberry** Pi. La placa SBC más popular se llama Raspberry Pi. Es una pequeña placa que cuenta con varias versiones y que tiene una amplia comunidad. El proyecto nació para buscar hardware económico y libre para enseñar computación en los colegios de primaria. Actualmente y gracias a su comunidad se puede hacer casi cualquier cosa con esta placa, desde un servidor hasta un clúster pasando por ser el hardware de una pesada tablet.
 * **BeagleBone Black**. Es la alternativa estadounidense a Raspberry Pi. Por lo general no suele existir mucha diferencia entre la potencia de esta placa con el resto, ahora bien, BeagleBone Black puede soportar Ubuntu o funcionar como un accesorio más del Pc tradicional, nosotros decidimos.
 * **PcDuino**. Es la placa SBC más libre que existe, si realmente existiese ese titulo. PcDuino está basado en los esquemas de Arduino e incorpora lo necesario para ser una placa SBC, es decir: procesador y memoria ram. A diferencia del resto, PcDuino es bastante grande, alcanza los 12 cm de largo por 6 cm de ancho. El último modelo de esta placa admite y soporta Ubuntu y Android.
 * **Pandaboard**. Es posible la menos famosa pero no por ello la menos interesante. Pandaboard tiene una gran comunidad que está creando interesantes proyectos con esta placa SBC. Pandaboard permite la conexión wireless gracias a una antena wireless incorporada a la placa. Característica que otras placas no tienen.
 
 
-##MODELO DE ARQUITECTURA DE VON NEUMANN
+## MODELO DE ARQUITECTURA DE VON NEUMANN
 
 La arquitectura de John Von Neumann se caracteriza principalmente por los procesadores que tiene el mismo dispositivo de almacenamiento tanto para las instrucciones como para los datos. Estos, al ser almacenados en el mismo formato dentro de la memoria, utiliza un único bus de datos para poder mantener contacto con la CPU. Esto crea una eficiencia en la utilización de la memoria, pero al mismo tiempo requiere una ambigüedad para poder reconocer y distinguir los datos.
 
